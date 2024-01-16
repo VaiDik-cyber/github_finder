@@ -1,7 +1,12 @@
 import React from "react";
+import UserResults from "../Components/Users/UserResults";
 
 const Home = () => {
-  return <div className="text-6xl">Welcome</div>;
+  return (
+    <div>
+      <UserResults />
+    </div>
+  );
 };
 
 export default Home;
